@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BD32D91EC4A48E004C6F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD32D81EC4A48E004C6F89 /* AppDelegate.swift */; };
+		05BD32DB1EC4A48E004C6F89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD32DA1EC4A48E004C6F89 /* ViewController.swift */; };
+		05BD32DE1EC4A48E004C6F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BD32DC1EC4A48E004C6F89 /* Main.storyboard */; };
+		05BD32E01EC4A48E004C6F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BD32DF1EC4A48E004C6F89 /* Assets.xcassets */; };
+		05BD32E31EC4A48E004C6F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BD32E11EC4A48E004C6F89 /* LaunchScreen.storyboard */; };
+		05BD32EE1EC4A48E004C6F89 /* NTA_Bai4_Plist_gitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD32ED1EC4A48E004C6F89 /* NTA_Bai4_Plist_gitTests.swift */; };
+		05BD32F91EC4A48F004C6F89 /* NTA_Bai4_Plist_gitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD32F81EC4A48F004C6F89 /* NTA_Bai4_Plist_gitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05BD32EA1EC4A48E004C6F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BD32CD1EC4A48D004C6F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BD32D41EC4A48E004C6F89;
+			remoteInfo = "NTA Bai4-Plist.git";
+		};
+		05BD32F51EC4A48E004C6F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BD32CD1EC4A48D004C6F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BD32D41EC4A48E004C6F89;
+			remoteInfo = "NTA Bai4-Plist.git";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05BD32D51EC4A48E004C6F89 /* NTA Bai4-Plist.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NTA Bai4-Plist.git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD32D81EC4A48E004C6F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05BD32DA1EC4A48E004C6F89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05BD32DD1EC4A48E004C6F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05BD32DF1EC4A48E004C6F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05BD32E21EC4A48E004C6F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05BD32E41EC4A48E004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD32E91EC4A48E004C6F89 /* NTA Bai4-Plist.gitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTA Bai4-Plist.gitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD32ED1EC4A48E004C6F89 /* NTA_Bai4_Plist_gitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTA_Bai4_Plist_gitTests.swift; sourceTree = "<group>"; };
+		05BD32EF1EC4A48E004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD32F41EC4A48E004C6F89 /* NTA Bai4-Plist.gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTA Bai4-Plist.gitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BD32F81EC4A48F004C6F89 /* NTA_Bai4_Plist_gitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTA_Bai4_Plist_gitUITests.swift; sourceTree = "<group>"; };
+		05BD32FA1EC4A48F004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BD32D21EC4A48E004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD32E61EC4A48E004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD32F11EC4A48E004C6F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BD32CC1EC4A48D004C6F89 = {
+			isa = PBXGroup;
+			children = (
+				05BD32D71EC4A48E004C6F89 /* NTA Bai4-Plist.git */,
+				05BD32EC1EC4A48E004C6F89 /* NTA Bai4-Plist.gitTests */,
+				05BD32F71EC4A48F004C6F89 /* NTA Bai4-Plist.gitUITests */,
+				05BD32D61EC4A48E004C6F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05BD32D61EC4A48E004C6F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BD32D51EC4A48E004C6F89 /* NTA Bai4-Plist.git.app */,
+				05BD32E91EC4A48E004C6F89 /* NTA Bai4-Plist.gitTests.xctest */,
+				05BD32F41EC4A48E004C6F89 /* NTA Bai4-Plist.gitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BD32D71EC4A48E004C6F89 /* NTA Bai4-Plist.git */ = {
+			isa = PBXGroup;
+			children = (
+				05BD32D81EC4A48E004C6F89 /* AppDelegate.swift */,
+				05BD32DA1EC4A48E004C6F89 /* ViewController.swift */,
+				05BD32DC1EC4A48E004C6F89 /* Main.storyboard */,
+				05BD32DF1EC4A48E004C6F89 /* Assets.xcassets */,
+				05BD32E11EC4A48E004C6F89 /* LaunchScreen.storyboard */,
+				05BD32E41EC4A48E004C6F89 /* Info.plist */,
+			);
+			path = "NTA Bai4-Plist.git";
+			sourceTree = "<group>";
+		};
+		05BD32EC1EC4A48E004C6F89 /* NTA Bai4-Plist.gitTests */ = {
+			isa = PBXGroup;
+			children = (
+				05BD32ED1EC4A48E004C6F89 /* NTA_Bai4_Plist_gitTests.swift */,
+				05BD32EF1EC4A48E004C6F89 /* Info.plist */,
+			);
+			path = "NTA Bai4-Plist.gitTests";
+			sourceTree = "<group>";
+		};
+		05BD32F71EC4A48F004C6F89 /* NTA Bai4-Plist.gitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05BD32F81EC4A48F004C6F89 /* NTA_Bai4_Plist_gitUITests.swift */,
+				05BD32FA1EC4A48F004C6F89 /* Info.plist */,
+			);
+			path = "NTA Bai4-Plist.gitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BD32D41EC4A48E004C6F89 /* NTA Bai4-Plist.git */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD32FD1EC4A48F004C6F89 /* Build configuration list for PBXNativeTarget "NTA Bai4-Plist.git" */;
+			buildPhases = (
+				05BD32D11EC4A48E004C6F89 /* Sources */,
+				05BD32D21EC4A48E004C6F89 /* Frameworks */,
+				05BD32D31EC4A48E004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NTA Bai4-Plist.git";
+			productName = "NTA Bai4-Plist.git";
+			productReference = 05BD32D51EC4A48E004C6F89 /* NTA Bai4-Plist.git.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05BD32E81EC4A48E004C6F89 /* NTA Bai4-Plist.gitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD33001EC4A48F004C6F89 /* Build configuration list for PBXNativeTarget "NTA Bai4-Plist.gitTests" */;
+			buildPhases = (
+				05BD32E51EC4A48E004C6F89 /* Sources */,
+				05BD32E61EC4A48E004C6F89 /* Frameworks */,
+				05BD32E71EC4A48E004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BD32EB1EC4A48E004C6F89 /* PBXTargetDependency */,
+			);
+			name = "NTA Bai4-Plist.gitTests";
+			productName = "NTA Bai4-Plist.gitTests";
+			productReference = 05BD32E91EC4A48E004C6F89 /* NTA Bai4-Plist.gitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05BD32F31EC4A48E004C6F89 /* NTA Bai4-Plist.gitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BD33031EC4A48F004C6F89 /* Build configuration list for PBXNativeTarget "NTA Bai4-Plist.gitUITests" */;
+			buildPhases = (
+				05BD32F01EC4A48E004C6F89 /* Sources */,
+				05BD32F11EC4A48E004C6F89 /* Frameworks */,
+				05BD32F21EC4A48E004C6F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BD32F61EC4A48E004C6F89 /* PBXTargetDependency */,
+			);
+			name = "NTA Bai4-Plist.gitUITests";
+			productName = "NTA Bai4-Plist.gitUITests";
+			productReference = 05BD32F41EC4A48E004C6F89 /* NTA Bai4-Plist.gitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05BD32CD1EC4A48D004C6F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HCMUTE;
+				TargetAttributes = {
+					05BD32D41EC4A48E004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					05BD32E81EC4A48E004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05BD32D41EC4A48E004C6F89;
+					};
+					05BD32F31EC4A48E004C6F89 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05BD32D41EC4A48E004C6F89;
+					};
+				};
+			};
+			buildConfigurationList = 05BD32D01EC4A48D004C6F89 /* Build configuration list for PBXProject "NTA Bai4-Plist.git" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05BD32CC1EC4A48D004C6F89;
+			productRefGroup = 05BD32D61EC4A48E004C6F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05BD32D41EC4A48E004C6F89 /* NTA Bai4-Plist.git */,
+				05BD32E81EC4A48E004C6F89 /* NTA Bai4-Plist.gitTests */,
+				05BD32F31EC4A48E004C6F89 /* NTA Bai4-Plist.gitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BD32D31EC4A48E004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD32E31EC4A48E004C6F89 /* LaunchScreen.storyboard in Resources */,
+				05BD32E01EC4A48E004C6F89 /* Assets.xcassets in Resources */,
+				05BD32DE1EC4A48E004C6F89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD32E71EC4A48E004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD32F21EC4A48E004C6F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BD32D11EC4A48E004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD32DB1EC4A48E004C6F89 /* ViewController.swift in Sources */,
+				05BD32D91EC4A48E004C6F89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD32E51EC4A48E004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD32EE1EC4A48E004C6F89 /* NTA_Bai4_Plist_gitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BD32F01EC4A48E004C6F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BD32F91EC4A48F004C6F89 /* NTA_Bai4_Plist_gitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BD32EB1EC4A48E004C6F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BD32D41EC4A48E004C6F89 /* NTA Bai4-Plist.git */;
+			targetProxy = 05BD32EA1EC4A48E004C6F89 /* PBXContainerItemProxy */;
+		};
+		05BD32F61EC4A48E004C6F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BD32D41EC4A48E004C6F89 /* NTA Bai4-Plist.git */;
+			targetProxy = 05BD32F51EC4A48E004C6F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05BD32DC1EC4A48E004C6F89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BD32DD1EC4A48E004C6F89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05BD32E11EC4A48E004C6F89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BD32E21EC4A48E004C6F89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05BD32FB1EC4A48F004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05BD32FC1EC4A48F004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05BD32FE1EC4A48F004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NTA Bai4-Plist.git/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai4-Plist-git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05BD32FF1EC4A48F004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NTA Bai4-Plist.git/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai4-Plist-git";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		05BD33011EC4A48F004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NTA Bai4-Plist.gitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai4-Plist-gitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTA Bai4-Plist.git.app/NTA Bai4-Plist.git";
+			};
+			name = Debug;
+		};
+		05BD33021EC4A48F004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NTA Bai4-Plist.gitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai4-Plist-gitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTA Bai4-Plist.git.app/NTA Bai4-Plist.git";
+			};
+			name = Release;
+		};
+		05BD33041EC4A48F004C6F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NTA Bai4-Plist.gitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai4-Plist-gitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NTA Bai4-Plist.git";
+			};
+			name = Debug;
+		};
+		05BD33051EC4A48F004C6F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NTA Bai4-Plist.gitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IT.NTA-Bai4-Plist-gitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NTA Bai4-Plist.git";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BD32D01EC4A48D004C6F89 /* Build configuration list for PBXProject "NTA Bai4-Plist.git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD32FB1EC4A48F004C6F89 /* Debug */,
+				05BD32FC1EC4A48F004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BD32FD1EC4A48F004C6F89 /* Build configuration list for PBXNativeTarget "NTA Bai4-Plist.git" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD32FE1EC4A48F004C6F89 /* Debug */,
+				05BD32FF1EC4A48F004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05BD33001EC4A48F004C6F89 /* Build configuration list for PBXNativeTarget "NTA Bai4-Plist.gitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD33011EC4A48F004C6F89 /* Debug */,
+				05BD33021EC4A48F004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05BD33031EC4A48F004C6F89 /* Build configuration list for PBXNativeTarget "NTA Bai4-Plist.gitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BD33041EC4A48F004C6F89 /* Debug */,
+				05BD33051EC4A48F004C6F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05BD32CD1EC4A48D004C6F89 /* Project object */;
+}
