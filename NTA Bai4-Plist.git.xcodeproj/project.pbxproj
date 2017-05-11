@@ -14,6 +14,7 @@
 		05BD32E31EC4A48E004C6F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BD32E11EC4A48E004C6F89 /* LaunchScreen.storyboard */; };
 		05BD32EE1EC4A48E004C6F89 /* NTA_Bai4_Plist_gitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD32ED1EC4A48E004C6F89 /* NTA_Bai4_Plist_gitTests.swift */; };
 		05BD32F91EC4A48F004C6F89 /* NTA_Bai4_Plist_gitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD32F81EC4A48F004C6F89 /* NTA_Bai4_Plist_gitUITests.swift */; };
+		05BD33071EC4A513004C6F89 /* exam.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05BD33061EC4A513004C6F89 /* exam.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		05BD32F41EC4A48E004C6F89 /* NTA Bai4-Plist.gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NTA Bai4-Plist.gitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BD32F81EC4A48F004C6F89 /* NTA_Bai4_Plist_gitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTA_Bai4_Plist_gitUITests.swift; sourceTree = "<group>"; };
 		05BD32FA1EC4A48F004C6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BD33061EC4A513004C6F89 /* exam.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = exam.plist; path = ../exam.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				05BD32DC1EC4A48E004C6F89 /* Main.storyboard */,
 				05BD32DF1EC4A48E004C6F89 /* Assets.xcassets */,
 				05BD32E11EC4A48E004C6F89 /* LaunchScreen.storyboard */,
+				05BD33061EC4A513004C6F89 /* exam.plist */,
 				05BD32E41EC4A48E004C6F89 /* Info.plist */,
 			);
 			path = "NTA Bai4-Plist.git";
@@ -235,6 +238,7 @@
 				05BD32E31EC4A48E004C6F89 /* LaunchScreen.storyboard in Resources */,
 				05BD32E01EC4A48E004C6F89 /* Assets.xcassets in Resources */,
 				05BD32DE1EC4A48E004C6F89 /* Main.storyboard in Resources */,
+				05BD33071EC4A513004C6F89 /* exam.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
